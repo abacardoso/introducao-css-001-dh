@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightslategrey;
+}
+
+main {
+    background-image: url(../img/margaridas.webp);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    
+    /*Altura | Largura*/
+    /*Height | width*/
+    background-size: 1300px 900px;
+    background-position: center center;
+    
+    /*vh = viwer height*/
+    height: 100vh;
+
+}
+
+h1 {
+    color:darkslategray;
+    opacity: 0.9;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Helvetica;
+}
+
+h2 {
+    font-size: 18px;
+    font-family: sans-serif
+}
+
+table {
+    width: 100%;
+}
+
+section {
+    width: 50%;
+}
+
+#segunda-section {
+    color: rgb(117, 68, 163);
+}
+
+#terceira-section {
+    color: rgb(165, 124, 63);
+}
+
+.dark-color {
+    color: black;
+}
